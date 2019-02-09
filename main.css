@@ -1,0 +1,74 @@
+/*
+
+========================================================================================    
+
+
+****** ****** *   *      *      *        *        ©2019 ROHAN PAL
+*****  *    * *   *     * *     * *      *        All Rights Reserved
+****   *    * *****    *   *    *   *    *        
+* *    *    * *   *   *******   *     *  *        #madebyrohanpal
+*  *   *    * *   *  *       *  *      * *
+*   *  ****** *   * *         * *        *
+
+
+========================================================================================
+
+*/
+
+
+*{
+    font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar-brand{
+    padding-left: 10%;
+}
+
+.head-title{
+    max-width: 80%;
+    padding-top: 80px; 
+}
+
+
+
+.head-intro{
+    font-size: 75px;
+}
+
+.para1{
+    font-size: 25px;
+}
+
+.highlight{
+    color: #4A00E0;
+}
+
+.social{
+    padding-top: 25px;
+    max-width: 80%
+}
+
+.copyright{
+    max-width: 80%;
+    padding-top: 50px;
+    font-size: 10px;
+}
+
+.fa{
+    padding: 10px;
+    color:#4A00E0;
+}
+
+/* 
+
+================================================
+
+Code Completion Version Timings:
+
+Version 0.0.1 10/02/2019 3:37AM Reading Room KP7  
+
+================================================
+
+
+*/
