@@ -15,6 +15,11 @@
 
 */
 
+@font-face {
+
+    font-family: "Poppins"; 
+    src: url('fontFolder/Poppins-Regular.ttf') format('truetype'), 
+  }
 
 *{
     font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
