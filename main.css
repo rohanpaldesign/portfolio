@@ -35,12 +35,24 @@
     padding-top: 80px; 
 }
 
+@media screen and (max-width: 470px) {
+    .head-title{
+        padding-top: 25px;
+    }
+}
+
 
 
 .head-intro{
     font-size: 75px;
     opacity: 0;
     animation: yourAnimation 0.8s forwards 0.5s ease-in-out;
+    }
+
+    @media screen and (max-width: 470px) {
+        .head-intro {
+            font-size: 35px;
+        }
     }
 
     @keyframes yourAnimation{
@@ -60,6 +72,12 @@
     animation: yourAnimation2 0.8s forwards 0.8s ease-in-out;
 }
 
+@media screen and (max-width: 470px) {
+    .para1 {
+        font-size: 18px
+    }
+}
+
 @keyframes yourAnimation2 {
     0%{
         transform: rotate(0) translateY(20%);
@@ -72,8 +90,13 @@
 }
 
 .para2{
+    font-size: 15px;
     opacity: 0;
     animation: yourAnimation3 0.8s forwards 1s ease-in-out;
+}
+
+@media screen and (max-width: 470px) {
+    font-size: 12px;
 }
 
 @keyframes yourAnimation3 {
@@ -110,6 +133,7 @@
 .fa-behance{
     opacity: 0;
     animation: iconAnimation 0.8s forwards 1.2s ease-in-out;
+    padding-left: 0px;
 }
 
 @keyframes iconAnimation {
